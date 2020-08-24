@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #787878;
-		font-family: 'Josefin Sans', sans-serif;
+		font-family: 'Rubik', sans-serif;
 		font-size: 18pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -123,7 +123,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #787878;
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -2046,11 +2046,13 @@ input, select, textarea {
 	}
 
 		.image:before {
+/*
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
+*/
 			border-radius: 0.35em;
 			content: '';
 			display: block;
